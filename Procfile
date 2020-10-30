@@ -1,1 +1,1 @@
-web: node -r esm ./bin/server
+web: node ./bin/server
