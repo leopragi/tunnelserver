@@ -10,7 +10,7 @@ const ClientManager = require('./lib/ClientManager');
 
 const debug = Debug('localtunnel:server');
 
-export default function(opt) {
+module.exports = function(opt) {
     opt = opt || {};
 
     const validHosts = (opt.domain) ? [opt.domain] : undefined;
